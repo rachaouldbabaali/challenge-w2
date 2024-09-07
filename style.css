@@ -6,9 +6,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url('./backgrd.jpg');
-    background-size: cover;
-
+    background-color: #e0d8d8;
 }
 
 h1 {
@@ -43,4 +41,13 @@ h1 {
     padding: 0 10px;
     border-radius: 5px;
 
+}
+
+#container {
+    
+    background-image: url('./backgrd.jpg');
+    width: 200%;
+    background-position: center;
+    opacity: 0.2;
+    height: 100vh;
 }
